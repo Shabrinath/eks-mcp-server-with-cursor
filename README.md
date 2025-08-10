@@ -1,0 +1,1 @@
+# eks-mcp-server-with-cursor
