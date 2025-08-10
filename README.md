@@ -139,29 +139,33 @@ You can configure additional environment variables:
 }
 ```
 
-## Usage Examples
+## Sample Prompts for Cursor Chat
 
-### 1. List EKS Clusters
-```bash
-# In Cursor's terminal or via MCP commands
-# The MCP server will automatically detect and list your EKS clusters
-```
+Try these prompts in Cursor's chat interface to interact with your EKS cluster:
 
-### 2. Manage Kubernetes Resources
-```bash
-# The MCP server provides commands for:
-# - Listing pods, services, deployments
-# - Getting logs from pods
-# - Managing resources (create, update, delete)
-# - Monitoring cluster metrics
-```
+### Quick Start
+- **"Show me all pods in the default namespace"**
+- **"List all services across all namespaces"**
+- **"Get logs from the nginx pod"**
+- **"What's the status of my deployments?"**
 
-### 3. Troubleshooting
-```bash
-# Check MCP server status
-# View logs and events
-# Monitor resource health
-```
+### Common Operations
+- **"Deploy nginx with 3 replicas"**
+- **"Scale my frontend to 5 replicas"**
+- **"Why is my pod stuck in Pending?"**
+- **"Show me recent pod failures"**
+
+### Troubleshooting
+- **"Get events for the failing pod"**
+- **"Check CPU/memory usage of my pods"**
+- **"Show me logs from the last 10 minutes"**
+- **"What's causing high memory usage?"**
+
+### Tips
+- Be specific (mention namespaces, pod names)
+- Use natural language
+- Ask follow-up questions
+- Reference previous findings
 
 ## Troubleshooting
 
